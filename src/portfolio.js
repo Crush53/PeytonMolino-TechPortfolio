@@ -23,7 +23,7 @@ const greeting = {
   username: "Peyton Molino",
   title: "Hi all, I'm Peyton",
   subTitle: emoji(
-    "A dedicated Data Scientist and Software Engineer 🚀 with comprehensive expertise in developing data-driven solutions and full-stack web applications. Skilled in Python and its prominent libraries for Machine Learning and Data Analysis, such as Pandas, NumPy, and Matplotlib. Experienced in web development with robust frameworks like Django, complemented by a strong proficiency in HTMl and JavaScript. Proficient in database management and optimization using PostgreSQL, ensuring efficient data storage and retrieval in complex web and data-centric applications."
+    "A dedicated Data Scientist and Software Engineer 🚀 with comprehensive expertise in developing data-driven solutions and full-stack web applications. Skilled in Python and its prominent libraries for Machine Learning and Data Analysis, such as Pandas, NumPy, and Matplotlib. Experienced in web development with robust frameworks like Django, complemented by a strong proficiency in HTML and JavaScript. Proficient in database management and optimization using PostgreSQL, ensuring efficient data storage and retrieval in complex web and data-centric applications."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1uA7GarOv4_lkcIsbeYZxiDu6c0FeS_A-/view?usp=sharing", // Set to empty to hide the button
@@ -44,7 +44,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "Here are some of my skills",
   subTitle:
     "VERSATILE DATA SCIENTIST AND SOFTWARE DEVELOPER WHO EXCELS IN MULTIPLE TECH STACKS",
   skills: [
@@ -52,7 +52,7 @@ const skillsSection = {
       "⚡ Develop interactive and dynamic web applications using Django, HTML, and advanced JavaScript"
     ),
     emoji("⚡ Build and maintain robust databases with PostgreSQL and SQL"),
-    emoji("⚡ Create data-driven solutions leveraging Python, R, and Java"),
+    emoji("⚡ Create data-driven solutions leveraging Python and R"),
     emoji(
       "⚡ Implement advanced data analytics and visualization with Plotly, Matplotlib, Django, and Tableau"
     ),
@@ -150,11 +150,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-brain" // Using a brain icon as a substitute for Machine Learning
     },
     {
-      skillName: "ethics",
-      fontAwesomeClassname: "fas fa-balance-scale" // Using a balance scale icon for Ethics
-    },
-    {
-      skillName: "population-modeling",
+      skillName: "Mathematical-modeling",
       fontAwesomeClassname: "fas fa-users" // Using a group icon for Population Modeling
     }
   ],
@@ -234,7 +230,7 @@ const workExperiences = {
     {
       role: "Teaching Assistant",
       company: "Point Loma Nazarene University",
-      companylogo: require("./assets/images/PLNULogo.png"), // Replace with university logo
+      companylogo: require("./assets/images/PLNUlogo.png"), // Replace with university logo
       date: "August 2023 - December 2023",
       desc: "Assisted in grading and student support in mathematics, enhancing educational processes and student understanding.",
       descBullets: [
@@ -261,49 +257,49 @@ const bigProjects = {
   subtitle:
     "Projects I have worked on to improve my skills and gain experience",
   projects: [
+
     {
-      image: require("./assets/images/project1.webp"), // Replace with your project image
-      projectName: "Advanced Reservoir Data Management System",
-      projectDesc:
-        "Developed a Python-based system for real-time reservoir monitoring and data management, integrating PostgreSQL and automating the data pipeline.",
-      footerLink: [
-        // Add a link to the project or repository if available
-      ]
-    },
-    {
-      image: require("./assets/images/project2.webp"), // Replace with your project image
+      image: require("./assets/images/Tri-State.png"), // Replace with your project image
       projectName: "Tri-State Reservoir Data Dashboard",
       projectDesc:
         "Enhanced multi-state reservoir analytics using Django, integrating Plotly for advanced data visualization, and optimizing data retrieval processes.",
       footerLink: [
-        // Add a link to the project or repository if available
+        "https://github.com/PLNU-DataScience/week9-data-science-dashboard-2-Crush53"
       ]
     },
     {
-      image: require("./assets/images/project3.webp"), // Replace with your project image
+      image: require("./assets/images/Energy_dashboard.png"), // Replace with your project image
       projectName: "Energy Consumption and Generation Analytics Dashboard",
       projectDesc:
         "Created a Python and Django application for real-time energy data analysis, featuring automated data extraction and advanced visualizations.",
       footerLink: [
-        // Add a link to the project or repository if available
+        "https://github.com/PLNU-DataScience/week10-energy-analysis-Crush53"
       ]
     },
     {
-      image: require("./assets/images/project4.webp"), // Replace with your project image
+      image: require("./assets/images/ML-Forecast.png"), // Replace with your project image
       projectName: "Reservoir ML Forecasting",
       projectDesc:
         "Developed a comprehensive Django-based web application for reservoir forecasting, implementing various machine learning models with high accuracy and an efficient Python data pipeline.",
       footerLink: [
-        // Add a link to the project or repository if available
+        "https://github.com/Crush53/Reservoir-ML-Forecasting"
       ]
     },
     {
-      image: require("./assets/images/project5.webp"), // Replace with your project image
+      image: require("./assets/images/forecast_paper.jpeg"), // Replace with your project image
+      projectName: "Forecasting of Reservoir Storage Capacities",
+      projectDesc: "Conducted a comprehensive study using Machine Learning algorithms for predicting reservoir storage capacities. Utilized various models to analyze data from California reservoirs, highlighting the efficacy of Multi-layer Perceptron Regressor and Random Forest Regression in forecasting.",
+      footerLink: [
+        "https://drive.google.com/file/d/1LpPyPeMAwQy4Ly13itZo_vgTl43rMFek/view?usp=sharing"
+      ]
+    },
+    {
+      image: require("./assets/images/A Mathematical Model of Demographics of California Women.pptx.png"), // Replace with your project image
       projectName: "Mathematical Modeling of Population Growth",
       projectDesc:
         "Engineered a sophisticated population model using Excel, integrating demographic variables for realistic projections and presenting findings to faculty for critical review.",
       footerLink: [
-        // Add a link to the project or repository if available
+        "https://drive.google.com/file/d/1lyDbLahpIPIZgaAWxLWZJdZCBOMK9B4D/view?usp=sharing"
       ]
     }
   ],
