@@ -257,7 +257,6 @@ const bigProjects = {
   subtitle:
     "Projects I have worked on to improve my skills and gain experience",
   projects: [
-
     {
       image: require("./assets/images/Tri-State.png"), // Replace with your project image
       projectName: "Tri-State Reservoir Data Dashboard",
@@ -281,14 +280,13 @@ const bigProjects = {
       projectName: "Reservoir ML Forecasting",
       projectDesc:
         "Developed a comprehensive Django-based web application for reservoir forecasting, implementing various machine learning models with high accuracy and an efficient Python data pipeline.",
-      footerLink: [
-        "https://github.com/Crush53/Reservoir-ML-Forecasting"
-      ]
+      footerLink: ["https://github.com/Crush53/Reservoir-ML-Forecasting"]
     },
     {
       image: require("./assets/images/forecast_paper.jpeg"), // Replace with your project image
       projectName: "Forecasting of Reservoir Storage Capacities",
-      projectDesc: "Conducted a comprehensive study using Machine Learning algorithms for predicting reservoir storage capacities. Utilized various models to analyze data from California reservoirs, highlighting the efficacy of Multi-layer Perceptron Regressor and Random Forest Regression in forecasting.",
+      projectDesc:
+        "Conducted a comprehensive study using Machine Learning algorithms for predicting reservoir storage capacities. Utilized various models to analyze data from California reservoirs, highlighting the efficacy of Multi-layer Perceptron Regressor and Random Forest Regression in forecasting.",
       footerLink: [
         "https://drive.google.com/file/d/1LpPyPeMAwQy4Ly13itZo_vgTl43rMFek/view?usp=sharing"
       ]
