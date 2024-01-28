@@ -45,15 +45,24 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "VERSATILE DATA SCIENTIST AND SOFTWARE DEVELOPER WHO EXCELS IN MULTIPLE TECH STACKS",
+  subTitle:
+    "VERSATILE DATA SCIENTIST AND SOFTWARE DEVELOPER WHO EXCELS IN MULTIPLE TECH STACKS",
   skills: [
-    emoji("⚡ Develop interactive and dynamic web applications using Django, HTML, and advanced JavaScript"),
+    emoji(
+      "⚡ Develop interactive and dynamic web applications using Django, HTML, and advanced JavaScript"
+    ),
     emoji("⚡ Build and maintain robust databases with PostgreSQL and SQL"),
     emoji("⚡ Create data-driven solutions leveraging Python, R, and Java"),
-    emoji("⚡ Implement advanced data analytics and visualization with Plotly, Matplotlib, Django, and Tableau"),
-    emoji("⚡ Develop predictive models and utilize machine learning techniques"),
+    emoji(
+      "⚡ Implement advanced data analytics and visualization with Plotly, Matplotlib, Django, and Tableau"
+    ),
+    emoji(
+      "⚡ Develop predictive models and utilize machine learning techniques"
+    ),
     emoji("⚡ Efficient project management and strong problem-solving skills"),
-    emoji("⚡ Excellent communication, collaboration, and technical writing abilities")
+    emoji(
+      "⚡ Excellent communication, collaboration, and technical writing abilities"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -147,7 +156,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "population-modeling",
       fontAwesomeClassname: "fas fa-users" // Using a group icon for Population Modeling
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -171,7 +180,7 @@ const educationInfo = {
         "Completed coursework in Complex Analysis and Calculus I/II/III",
         "Developed proficiency in Data Structures And Algorithms using C++"
       ]
-    },
+    }
   ]
 };
 
@@ -232,7 +241,7 @@ const workExperiences = {
         "Aided professor in grading papers and managing class materials",
         "Provided assistance to students needing help in mathematics"
       ]
-    },
+    }
     // Add any other relevant experiences
   ]
 };
@@ -249,12 +258,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Projects I have worked on to improve my skills and gain experience",
+  subtitle:
+    "Projects I have worked on to improve my skills and gain experience",
   projects: [
     {
       image: require("./assets/images/project1.webp"), // Replace with your project image
       projectName: "Advanced Reservoir Data Management System",
-      projectDesc: "Developed a Python-based system for real-time reservoir monitoring and data management, integrating PostgreSQL and automating the data pipeline.",
+      projectDesc:
+        "Developed a Python-based system for real-time reservoir monitoring and data management, integrating PostgreSQL and automating the data pipeline.",
       footerLink: [
         // Add a link to the project or repository if available
       ]
@@ -262,7 +273,8 @@ const bigProjects = {
     {
       image: require("./assets/images/project2.webp"), // Replace with your project image
       projectName: "Tri-State Reservoir Data Dashboard",
-      projectDesc: "Enhanced multi-state reservoir analytics using Django, integrating Plotly for advanced data visualization, and optimizing data retrieval processes.",
+      projectDesc:
+        "Enhanced multi-state reservoir analytics using Django, integrating Plotly for advanced data visualization, and optimizing data retrieval processes.",
       footerLink: [
         // Add a link to the project or repository if available
       ]
@@ -270,7 +282,8 @@ const bigProjects = {
     {
       image: require("./assets/images/project3.webp"), // Replace with your project image
       projectName: "Energy Consumption and Generation Analytics Dashboard",
-      projectDesc: "Created a Python and Django application for real-time energy data analysis, featuring automated data extraction and advanced visualizations.",
+      projectDesc:
+        "Created a Python and Django application for real-time energy data analysis, featuring automated data extraction and advanced visualizations.",
       footerLink: [
         // Add a link to the project or repository if available
       ]
@@ -278,7 +291,8 @@ const bigProjects = {
     {
       image: require("./assets/images/project4.webp"), // Replace with your project image
       projectName: "Reservoir ML Forecasting",
-      projectDesc: "Developed a comprehensive Django-based web application for reservoir forecasting, implementing various machine learning models with high accuracy and an efficient Python data pipeline.",
+      projectDesc:
+        "Developed a comprehensive Django-based web application for reservoir forecasting, implementing various machine learning models with high accuracy and an efficient Python data pipeline.",
       footerLink: [
         // Add a link to the project or repository if available
       ]
@@ -286,11 +300,12 @@ const bigProjects = {
     {
       image: require("./assets/images/project5.webp"), // Replace with your project image
       projectName: "Mathematical Modeling of Population Growth",
-      projectDesc: "Engineered a sophisticated population model using Excel, integrating demographic variables for realistic projections and presenting findings to faculty for critical review.",
+      projectDesc:
+        "Engineered a sophisticated population model using Excel, integrating demographic variables for realistic projections and presenting findings to faculty for critical review.",
       footerLink: [
         // Add a link to the project or repository if available
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
