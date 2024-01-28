@@ -171,7 +171,7 @@ const educationInfo = {
         "Completed coursework in Complex Analysis and Calculus I/II/III",
         "Developed proficiency in Data Structures And Algorithms using C++"
       ]
-    },
+    }
 };
 
 // Your top 3 proficient stacks/tech experience
