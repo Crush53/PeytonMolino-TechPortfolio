@@ -292,7 +292,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/A Mathematical Model of Demographics of California Women.pptx.png"), // Replace with your project image
+      image: require("./assets/images/A_Mathematical_Model.png"), // Replace with your project image
       projectName: "Mathematical Modeling of Population Growth",
       projectDesc:
         "Engineered a sophisticated population model using Excel, integrating demographic variables for realistic projections and presenting findings to faculty for critical review.",
