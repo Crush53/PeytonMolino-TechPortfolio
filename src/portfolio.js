@@ -248,7 +248,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Projects I have worked on to improve my skills and gain experience",
   projects: [
     {
       image: require("./assets/images/project1.webp"), // Replace with your project image
